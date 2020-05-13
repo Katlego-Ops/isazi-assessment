@@ -15,4 +15,4 @@ Replication configurations vary between versions,
 this solution is only suitable for the latest postgres version,
 which is 12.
 
-###Thank you
+### Thank you
