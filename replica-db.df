@@ -1,0 +1,5 @@
+FROM postgres:latest
+
+LABEL maintainer="katlego@eblocks.com"
+
+COPY replica-shell.sh /docker-entrypoint-initdb.d/

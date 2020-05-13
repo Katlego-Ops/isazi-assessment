@@ -1,0 +1,10 @@
+FROM postgres:latest
+
+LABEL maintainer="katlego@eblocks.com"
+
+COPY master-init.sql /docker-entrypoint-initdb.d/
+
+COPY master-shell.sh /docker-entrypoint-initdb.d/
+
+COPY pg_hba.conf /tmp/pg_hba.conf
+
